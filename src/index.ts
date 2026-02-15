@@ -6,7 +6,7 @@ import os from "node:os";
 import path from "node:path";
 import { spawn } from "node:child_process";
 
-const OFFICIAL_SETUP_URL = "https://semobeta.vercel.app/api/setup-script?type=js";
+const OFFICIAL_SETUP_URL = "https://beta.trysemoia.com/api/setup-script?type=js";
 const DEFAULT_TIMEOUT_MS = 30000;
 
 type ParsedArgs = {

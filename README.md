@@ -5,7 +5,7 @@ Node-based installer for Semoia MCP.
 This CLI downloads the latest setup wizard from Semoia and runs it locally, so users get the same flow as:
 
 ```bash
-curl -fsSL https://semobeta.vercel.app/scripts/install-mcp.sh | bash
+curl -fsSL https://beta.trysemoia.com/scripts/install-mcp.sh | bash
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ npx @semoia/install-mcp --help
 
 This CLI is locked to the official setup endpoint:
 
-`https://semobeta.vercel.app/api/setup-script?type=js`
+`https://beta.trysemoia.com/api/setup-script?type=js`
 
 Any unknown args are passed through to `setup.mjs`.
 
